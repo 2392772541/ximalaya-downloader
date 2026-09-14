@@ -1,0 +1,20 @@
+# 下载产物与媒体缓存
+downloads/
+*.m4a
+*.mp3
+*.aac
+*.wav
+
+# Python 与打包临时文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+build/
+dist/
+
+# 操作系统与编辑器
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

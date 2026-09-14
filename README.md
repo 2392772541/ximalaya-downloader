@@ -14,8 +14,8 @@
 
 1. **无需配置运行环境**：
    - 仓库内已内置编译完成的单文件绿色版 `XimalayaDownloader.exe`（9.2MB），拷贝至任意 Windows 电脑直接运行，无需安装 Python 或任何第三方包。
-2. **免鉴权满速直链**：
-   - 绕过 PC 端容易触发 `407 Proxy Authentication Required` 的防爬拦截机制，通过移动端 H5 开放直链接口解析腾讯云 CDN 节点原始 `.m4a` 音频流（最高 64kbps HE-AAC 高音质），下载速度可达 90MB/s+。
+2. **免鉴权满速直链与原生 MP3 格式**：
+   - 绕过 PC 端容易触发 407 Proxy Authentication Required 的防爬拦截机制，优先通过官方移动端 baseInfo 接口直接提取腾讯云 CDN 原生 .mp3 直链（44.1kHz 标准 MP3），无需转码满速下载，兼容任意设备与播放器。
 3. **智能链接与 ID 识别**：
    - 支持桌面网页链接（如 `https://www.ximalaya.com/sound/1011055746`）
    - 支持移动分享链接（如 `https://m.ximalaya.com/sound/1011055746`）
